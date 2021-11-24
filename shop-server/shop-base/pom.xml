@@ -14,7 +14,15 @@
     <modules>
         <module>shop-gateway</module>
         <module>shop-auth</module>
+        <module>shop-upload</module>
     </modules>
 
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>

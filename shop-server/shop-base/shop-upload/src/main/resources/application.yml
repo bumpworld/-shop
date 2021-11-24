@@ -1,0 +1,15 @@
+#fastDFS 图片服务器高可用技术
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+  application:
+    name: upload-service
+server:
+  port: 9003
+
+
+
+
+
